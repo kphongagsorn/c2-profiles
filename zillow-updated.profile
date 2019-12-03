@@ -1,5 +1,5 @@
 #
-# Modified Noah's profile from here: https://github.com/noahpowers/ServerSetup/tree/master/profiles g
+# Modified Noah's profile from here: https://github.com/noahpowers/ServerSetup/tree/master/profiles
 # 
 # Major updates: stage, process-inject, post-ex
 #

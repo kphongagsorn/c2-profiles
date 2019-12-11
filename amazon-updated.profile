@@ -112,7 +112,7 @@ stage {
 
     #set name "cylance.dll";
     set userwx "false";
-    set obfuscate "true"; # set stomppe "true" to lightly obfuscate, set stomppe "true" for no obfuscation
+    set obfuscate "true"; # set stomppe "true" to lightly obfuscate, set stomppe "false" for no obfuscation
     set cleanup "true"; 
     set sleep_mask "true";
 

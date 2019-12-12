@@ -113,11 +113,11 @@ stage {
     #set name "cylance.dll";
     set userwx "false";
     set obfuscate "true"; # set stomppe "true" to lightly obfuscate, set stomppe "false" for no obfuscation
-    set cleanup "true"; 
+    set cleanup "true"; # removes self-bootstrapping Reflective Loader for beacon via VirtualFree
     set sleep_mask "true";
 
     # adds module stomping to Beacon's Reflective Loader. When enabled, Beacon's loader will shun VirtualAlloc and instead load a DLL into the current process and overwrite its memory.
-    set module_x64 "netshell.dll";
+    set module_x64 "netshell.dll"; # 2,875,904 bytes
     set module_x86 "netshell.dll";
 
     transform-x86 {
